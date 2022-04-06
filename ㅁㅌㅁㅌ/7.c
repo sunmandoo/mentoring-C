@@ -15,6 +15,7 @@ int main()
     change = first;
     first = second;
     second = change;
+    
     printf("변수1의 값: %d\n", first);
     printf("변수2의 값: %d", second);
 
