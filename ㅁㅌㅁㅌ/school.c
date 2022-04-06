@@ -11,7 +11,7 @@ int main(void)
 
 	sum = x + y;
 
-	printf("두 수의 합 : %d", sum);
+	printf("두 수의 합 : %d", sum); //double의 
 
 	return 0;
 }
