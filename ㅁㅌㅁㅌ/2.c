@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int First_Number = 20;
-    int Second_Number = 10;
+	int x;
+	int y;
+	int sum;
 
-    printf("두 수의 합: %d \n", First_Number + Second_Number);
-    printf("두 수의 차: %d \n", First_Number - Second_Number);
-    printf("두 수의 곱: %d \n", First_Number * Second_Number);
-    printf("두 수의 몫: %d \n", First_Number / Second_Number);
+	x = 100;
+	y = 200;
 
-    return 0;
+	sum = x + y;
+
+	printf("두 수의 합 : %d", sum); //double의 
+
+	return 0;
 }
