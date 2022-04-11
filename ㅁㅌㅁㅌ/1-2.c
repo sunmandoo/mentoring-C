@@ -2,7 +2,13 @@
 
 int main()
 {
-    // 1MB = 1024KB / 1KB = 1024Byte / 1byte = 8bit
+    int subC;
+    float hawC;
+    printf("섭씨 온도: ");
+    scanf("%d", &subC);
+    
+    hawC= 1.8 * subC + 32;  
+    printf("화씨 온도: %.3f", hawC);
 
     return 0;
 }

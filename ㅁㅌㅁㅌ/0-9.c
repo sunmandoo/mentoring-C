@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int subC;
-    float hawC;
-    printf("섭씨 온도: ");
-    scanf("%d", &subC);
-    
-    hawC= 1.8 * subC + 32;  
-    printf("화씨 온도: %.3f", hawC);
+	int Byear;
+	int Syear;
 
-    return 0;
+	scanf("%d", &Byear);
+	Syear = Byear - 543;
+	printf("%d", Syear);
+
+	return 0;
 }

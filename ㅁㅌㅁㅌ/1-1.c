@@ -1,17 +1,12 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int time;
-    int minute;
-    int second;
-
-    scanf("%d", &time);
-
-    minute = time / 60;
-    second = time % 60;
-
-    printf("%d %d", minute, second);
-
-    return 0;
+	int A, B, C;
+	scanf("%d %d %d", &A, &B, &C);
+	printf("%d\n", (A + B) % C);
+	printf("%d\n", ((A % C) + (B % C)) % C);
+	printf("%d\n", (A * B) % C);
+	printf("%d\n", ((A % B) * (B % C)) % C);
+	return 0;
 }
