@@ -5,11 +5,11 @@ int main()
     int car_height = 170;
     int tunnel1, tunnel2, tunnel3;
 
-    printf("ì²« ë²ˆì§¸ í„°ë„ ë†’ì´ ì…ë ¥ : ");
+    printf("Ã¹ ¹øÂ° ÅÍ³Î ³ôÀÌ ÀÔ·Â : ");
     scanf("%d", &tunnel1);
-    printf("ë‘ ë²ˆì§¸ í„°ë„ ë†’ì´ ì…ë ¥ : ");
+    printf("µÎ ¹øÂ° ÅÍ³Î ³ôÀÌ ÀÔ·Â : ");
     scanf("%d", &tunnel2);
-    printf("ì„¸ ë²ˆì§¸ í„°ë„ ë†’ì´ ì…ë ¥ : ");
+    printf("¼¼ ¹øÂ° ÅÍ³Î ³ôÀÌ ÀÔ·Â : ");
     scanf("%d", &tunnel3);
 
     if(tunnel1 <= 170)
