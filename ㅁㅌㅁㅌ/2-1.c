@@ -11,7 +11,7 @@ int main()
         for (int star = 0; star < line; star++)
         {
             printf("*");
-        }
+        } 
         printf("\n");
     }
 }
