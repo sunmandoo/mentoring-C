@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{
+{                     // 사분면 문제
 	int x, y;
 	scanf("%d %d", &x, &y);
 
