@@ -29,7 +29,7 @@ int main()
 		for (int down_space = 3; down_space > l; down_space--)
 		{
 			printf(" ");
-		}
+		} 
 		l++;
 
 		for (int down_star = 0; down_star < h; down_star++)
