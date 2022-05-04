@@ -7,6 +7,9 @@ int main()
     scanf("%d", &pick);
 
 	pick = choose(pick);
+	
+	if (pick == choose(0))
+		printf("----------종료----------");
 
     return 0;
 }
@@ -57,7 +60,7 @@ int choose(int type)
 
 				printf("\n");
 			}
-			break;
+			return(main());
 		}
 		else if (type == 2)
 		{
@@ -99,7 +102,7 @@ int choose(int type)
 
 				printf("\n");
 			}
-			break;
+			return(main());
 		}
 		else if (type == 3)
 		{
@@ -147,7 +150,7 @@ int choose(int type)
 
 				printf("\n");
 			}
-			break;
+			return(main());
 		}
 		else
 		{
