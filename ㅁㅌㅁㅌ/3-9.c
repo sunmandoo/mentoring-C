@@ -19,7 +19,7 @@ int number(int i)
 
     for (int j = 2; j < i; j++)
     {
-        k = i % j;
+        k = i % j;   //  
 
         if (k == 0)
         {
@@ -30,10 +30,10 @@ int number(int i)
 
     if (check == 1)
     {
-        printf("no prime_number");
+        printf("no prime number");
     }
     else
     {
-        printf("yes prime_number");
+        printf("yes prime number");
     }
 }
